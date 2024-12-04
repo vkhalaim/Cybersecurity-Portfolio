@@ -65,3 +65,71 @@ Control types (providing defense and protecting assets) include, but are not lim
 3. Detective (Determining whether an incident has occurred or is in progress)
 4. Deterrent (Discouraging attacks)
 
+## Controls Assessment Checklist
+
+Then, select “yes” or “no” to answer the question: *Does Botium Toys currently have this control in place?* 
+
+**Controls assessment checklist**
+
+|   Yes |     No | Control |
+| ----- | ----- | :---- |
+|  | x | Least Privilege |
+|  | x | Disaster recovery plans |
+| x |  | Password policies |
+|  | x | Separation of duties |
+| x |  | Firewall |
+|  | x | Intrusion detection system (IDS) |
+|  | x | Backups |
+| x |  | Antivirus software |
+|  | x | Manual monitoring, maintenance, and intervention for legacy systems |
+|  | x | Encryption |
+|  | x | Password management system |
+| x |  | Locks (offices, storefront, warehouse) |
+| x |  | Closed-circuit television (CCTV) surveillance |
+| x |  | Fire detection/prevention (fire alarm, sprinkler system, etc.) |
+
+---
+
+**Compliance checklist**
+
+Payment Card Industry Data Security Standard (PCI DSS)
+
+| Yes |     No | Best practice |
+| ----- | ----- | :---- |
+|  | x | Only authorized users have access to customers’ credit card information.  |
+|  | x | Credit card information is stored, accepted, processed, and transmitted internally, in a secure environment. |
+|  | x | Implement data encryption procedures to better secure credit card transaction touchpoints and data.  |
+|  | x | Adopt secure password management policies. |
+
+General Data Protection Regulation (GDPR)
+
+| Yes |     No | Best practice |
+| ----- | ----- | :---- |
+|  | x | E.U. customers’ data is kept private/secured. |
+| x |  | There is a plan in place to notify E.U. customers within 72 hours if their data is compromised/there is a breach. |
+| x |  | Ensure data is properly classified and inventoried. |
+| x |  | Enforce privacy policies, procedures, and processes to properly document and maintain data. |
+
+System and Organizations Controls (SOC type 1, SOC type 2\) 
+
+| Yes |     No | Best practice |
+| ----- | ----- | :---- |
+|  | x | User access policies are established. |
+|  | x | Sensitive data (PII/SPII) is confidential/private. |
+| x |  | Data integrity ensures the data is consistent, complete, accurate, and has been validated. |
+|  | x | Data is available to individuals authorized to access it. |
+
+---
+
+**Recommendations (optional):** 
+
+After researching Botium Toys's security posture, the analysts agreed that the security practice is far from the expectation. It lacks of protection of confidentialiy of sensitive information. The following are:
+- Least privilege
+- Password policies
+- Encryption
+- Password management system
+To address gaps in compliance, Botium needs to implement and establish the policies that can address the following above. Botium also needs to update its assets so the additional control can be identified as soon as possible to improve their security practice.
+
+
+
+
