@@ -34,6 +34,7 @@ ICMP/ping flood attack is possible due to multiple compromised systems sending a
 - People: Who needs access to the affected systems?
 
  Response: The attacker targeted the company with an ICMP flood attack, disrupting the internal network and preventing staff from performing operational tasks. To restore functionality, the internal network must be repaired promptly.
+ 
 2	Protect: Implement safeguards:
 - Access Controls: Who needs access to the affected items? How can access by untrusted sources be restricted?
 - Awareness/Training: Who should be informed about this attack, and how can future attacks be prevented?
@@ -43,12 +44,14 @@ ICMP/ping flood attack is possible due to multiple compromised systems sending a
 - Protective Technology: What protective technologies, like firewalls or intrusion prevention systems (IPS), should be implemented?
 
  Response: The cybersecurity team should be immediately alerted during an attack. Since staff rely on the internal network, implementing a firewall rule to limit incoming ICMP packets and regularly updating it to address emerging threats is essential. Additionally, the team should ensure that devices, operating systems, and software are updated and monitored. Introducing an IDS/IPS system would help identify and block suspicious ICMP traffic patterns effectively.
+ 
 3	Detect: Identify threats and attacks:
 - Anomalies and Events: What tools can detect and alert IT security staff of anomalies (e.g., SIEM tools)?
 - Continuous Monitoring: What tools or processes are needed to monitor the network for security events?
 - Detection Process: What tools are required to detect security events, such as IDS?
 
  Response: The cybersecurity team should configure source IP address verification on the firewall and analyze spoofed IP addresses using tools like Wireshark or TCPdump for incoming ICMP packets. Implementing network monitoring software, such as SIEM tools (e.g., Splunk or LogRhythm), will help detect abnormal traffic patterns effectively.
+ 
 4	Respond: Respond to threats and attacks:
 - Planning: What action plans need to be in place for similar attacks?
 - Communication: How will security response procedures be communicated to end users and IT staff?
@@ -57,6 +60,7 @@ ICMP/ping flood attack is possible due to multiple compromised systems sending a
 - Improvements: What can be improved to enhance future responses?
 
  Response: The cybersecurity team should develop a risk management plan for handling future incidents. This report will serve as a guide for responding to threats. In the event of an attack, the team will immediately inform end users about next steps and isolate affected systems to contain the spread of malicious activity. Critical systems and services will be prioritized for restoration, while network logs will be analyzed to identify suspicious behavior. A detailed report will be shared with upper management and, if required, legal authorities in compliance with regulations.
+
 5	Recover: Restore affected systems or data:
 - Recovery Planning: How will resources be restored?
 - Improvements: Can the recovery process or systems be improved?
